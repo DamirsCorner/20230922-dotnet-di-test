@@ -9,6 +9,7 @@ public static class ServiceCollectionExtensions
         services.AddScoped<IDependency1, Dependency1>();
         services.AddScoped<IDependency2, Dependency2>();
         services.AddScoped<IDependency3, Dependency3>();
+        services.AddScoped<IDependency4, Dependency4>();
         return services;
     }
 }
